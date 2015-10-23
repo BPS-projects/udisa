@@ -1,0 +1,81 @@
+.addfile:hover {
+    color: white;
+    cursor: pointer;
+}
+.addfile {
+    color:rgba(225,225,225,.5);
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    position: fixed;
+    right:10px;
+    top: 5px;
+    z-index:100;
+}
+.vacc {
+    position:absolute;
+    margin: 0 0 100 0;
+    width: 250px;
+    left:50%;
+    height: auto;
+    background: rgba(0, 0, 0, 0);
+    border: solid 0px;
+    }
+    .vacc>ul {
+    margin: 0 0 0 -125px;
+    padding: 0;
+        list-style: none;
+    width: 250px;
+    }
+    .vacc>ul>li {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+        list-style: none;
+    height: 40px;
+    width: 250px;
+        background-color:transparent;
+    transition: height 0.5s ease-in-out;
+        -moz-transition: height 0.5s ease-in-out;
+        -webkit-transition: height 0.5s ease-in-out;
+        -o-transition: height 0.5s ease-in-out;
+    }
+    .vacc>ul>li>h3 {
+    display: block;
+        float: none;
+    padding: 0 10 0;
+    height: 40px;
+    width: 250px;
+        text-decoration: none;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.3);
+        font-weight: normal;
+    margin: 5px 0px 4px 0px;
+    }
+    .vacc>ul>li>div {
+    margin: 0px 0 0 0;
+    overflow: auto;
+    padding: 0 0 0 40;
+    height: 300px;
+    width: 80%;
+        
+    }
+    .vacc>ul>li>div>a {
+    display: block;
+        text-decoration: none;
+        text-align: center;
+    margin: 1px;
+    padding: 3px;
+    color: #fff;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+.vacc>ul>li>div>a:hover {
+color: #FFF;
+    text-shadow: 0px -1px 0px #00518a;
+background: #007fda;
+}
+.vacc>ul>li:hover {
+height: 110px;
+}

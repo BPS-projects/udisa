@@ -1,0 +1,26 @@
+center{
+    z-index:0;
+    height:auto;
+}
+.videocontainer {
+    z-index:0;
+    position:relative;
+    top:15%;
+    left:50%;
+    margin: 0 0 50 -270;
+    background:rgba(0,0,0,.3);
+    border:solid 2px;
+    border-radius:10px;
+    padding:10 0 30 0;
+    width:560;
+    overflow:hidden;
+}
+video,img {
+    width:500px;
+    height:auto;
+    border:solid black 1px;
+    border-radius:2px;
+}
+h2{
+    margin: 0 0 15;
+}

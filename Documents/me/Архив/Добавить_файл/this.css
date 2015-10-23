@@ -1,0 +1,28 @@
+div.selectfile {
+	color: #fff; 
+	font-size: 12px;
+	line-height:20px;
+}
+div.selectfileblock{
+	position:relative;
+	left:50%;
+	margin:5px 0 -10px -45px;
+	text-align: center; 
+	width: 90px; 
+	height: 20px; 
+	border:solid 1px; 
+border-radius: 5px;
+background-color: rgba(0,0,0,.3);
+cursor:pointer;
+}
+img.tag_icon{
+	top:10px;
+	left:10px;
+}
+input[type="file"]{
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+h1 {
+    margin:10 0;
+}
